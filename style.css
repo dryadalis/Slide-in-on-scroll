@@ -1,33 +1,35 @@
 html {
     box-sizing: border-box;
-    background: linear-gradient(135deg, #f1d3bc 0%, #f34a4a 48%, #262f34 100%);
-    font-family: sans-serif;
+    background:linear-gradient(135deg, #f1d3bc 0%, #f34a4a 48%, #262f34 100%);;
+    font-family: Gloria Hallelujah;
     font-size: 20px;
     font-weight: 200;
-}
-body {
+  }
+  body {
     margin: 0;
-}
-*, *:before, *:after {
+  }
+  *, *:before, *:after {
     box-sizing: inherit;
-}
-
-h1 {
+  }
+  h1 {
     margin-top: 0;
-}
-.site-wrap {
+  }
+  .site-wrap {
     max-width: 700px;
     margin: 100px auto;
-    background: white;
-    padding: 40px;
+    background:white;
+    padding:40px;
     text-align: justify;
-}
-.align-right {
-    float: right;
-    margin-left: 20px;
-}
-
-.slide-in {
+  }
+  .align-left {
+    float:left;
+    margin-right:20px;
+  }
+  .align-right {
+    float:right;
+    margin-left:20px;
+  }
+  .slide-in {
     opacity:0;
     transition:all .5s;
   }
@@ -41,3 +43,10 @@ h1 {
     opacity:1;
     transform:translateX(0%) scale(1);
   }
+
+  img {
+      max-height: 800px;
+      max-width: 400px;
+  }
+
+
